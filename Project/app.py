@@ -63,8 +63,8 @@ if uploaded_file is not None:
     y_true = data["booking_status"]
 
     # Apply scaling only where needed
-    if model_name in ["Logistic Regression", "KNN"]:
-        X = scaler.transform(X)
+   # if model_name in ["Logistic Regression", "KNN"]:
+   #     X = scaler.transform(X)
 
     # ===============================
     # PREDICTION
