@@ -9,20 +9,18 @@ from sklearn.metrics import (
     confusion_matrix,
     classification_report
 )
-
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+MODEL_DIR = os.path.join(BASE_DIR, "model")
 
+st.write("BASE_DIR:", BASE_DIR)
+st.write("Contents of BASE_DIR:", os.listdir(BASE_DIR))
 
 if not os.path.exists(MODEL_DIR):
-    st.error(f"❌ Model directory not found at {MODEL_DIR}")
+    st.error(f"❌ Model directory not found: {MODEL_DIR}")
     st.stop()
 
 st.write("Files in model folder:", os.listdir(MODEL_DIR))
 
-st.write("Current working directory:", os.getcwd())
-st.write("Files in model folder:", os.listdir("model"))
-
-MODEL_DIR = os.path.join(BASE_DIR, "model")
 # ===============================
 # PAGE CONFIG
 # ===============================
