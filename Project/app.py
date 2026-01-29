@@ -34,7 +34,7 @@ models = {
     #"XGBoost": joblib.load(os.path.join(MODEL_DIR,"xgboost.pkl")),
 }
 
-scaler = joblib.load(os.path.join(MODEL_DIR,"scaler.pkl"))
+#scaler = joblib.load(os.path.join(MODEL_DIR,"scaler.pkl"))
 
 # ===============================
 # MODEL SELECTION
