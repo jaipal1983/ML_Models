@@ -9,6 +9,11 @@ from sklearn.metrics import (
     classification_report
 )
 
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+MODEL_DIR = os.path.join(BASE_DIR, "model")
+
+st.write("Current working directory:", os.getcwd())
+st.write("Files in model folder:", os.listdir("model"))
 # ===============================
 # PAGE CONFIG
 # ===============================
@@ -23,15 +28,15 @@ st.title("ML Model Evaluation – Streamlit App")
 # LOAD MODELS
 # ===============================
 models = {
-    "Logistic Regression": joblib.load("model/logistic_regression.pkl"),
-    "Decision Tree": joblib.load("model/decision_tree.pkl"),
-    "KNN": joblib.load("model/knn.pkl"),
-    "Naive Bayes": joblib.load("model/naive_bayes.pkl"),
-    "Random Forest": joblib.load("model/random_forest.pkl"),
-    "XGBoost": joblib.load("model/xgboost.pkl"),
+    "Logistic Regression": joblib.load(os.path.join(MODEL_DIR,"logistic_regression.pkl")),
+    "Decision Tree": joblib.load(os.path.join(MODEL_DIR,"decision_tree.pkl")),
+    "KNN": joblib.load(os.path.join(MODEL_DIR,"knn.pkl")),
+    "Naive Bayes": joblib.load(os.path.join(MODEL_DIR,"naive_bayes.pkl")),
+    "Random Forest": joblib.load(os.path.join(MODEL_DIR,"random_forest.pkl")),
+    "XGBoost": joblib.load(os.path.join(MODEL_DIR,"xgboost.pkl")),
 }
 
-scaler = joblib.load("model/scaler.pkl")
+scaler = joblib.load(os.path.join(MODEL_DIR,"scaler.pkl"))
 
 # ===============================
 # MODEL SELECTION
