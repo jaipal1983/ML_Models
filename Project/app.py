@@ -12,15 +12,6 @@ from sklearn.metrics import (
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 MODEL_DIR = os.path.join(BASE_DIR, "model")
 
-st.write("BASE_DIR:", BASE_DIR)
-st.write("Contents of BASE_DIR:", os.listdir(BASE_DIR))
-
-if not os.path.exists(MODEL_DIR):
-    st.error(f"❌ Model directory not found: {MODEL_DIR}")
-    st.stop()
-
-st.write("Files in model folder:", os.listdir(MODEL_DIR))
-
 # ===============================
 # PAGE CONFIG
 # ===============================
