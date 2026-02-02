@@ -33,7 +33,7 @@ st.title("ML Model Evaluation – Streamlit App")
 models = {
     "Logistic Regression": joblib.load(os.path.join(MODEL_DIR, "logistic_regression.pkl")),
 	"Decision Tree": joblib.load(os.path.join(MODEL_DIR,"decision_tree.pkl")),
-    #"KNN": joblib.load(os.path.join(MODEL_DIR,"knn.pkl")),
+    "KNN": joblib.load(os.path.join(MODEL_DIR,"knn.pkl")),
     "Naive Bayes": joblib.load(os.path.join(MODEL_DIR,"naive_bayes.pkl")),
     #"Random Forest": joblib.load(os.path.join(MODEL_DIR,"random_forest.pkl")),
     "XGBoost": joblib.load(os.path.join(MODEL_DIR,"xgboost.pkl")),
