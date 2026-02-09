@@ -35,7 +35,7 @@ models = {
 	"Decision Tree": joblib.load(os.path.join(MODEL_DIR,"decision_tree.pkl")),
     "KNN": joblib.load(os.path.join(MODEL_DIR,"knn.pkl")),
     "Naive Bayes": joblib.load(os.path.join(MODEL_DIR,"naive_bayes.pkl")),
-    "Random Forest": joblib.load(os.path.join(MODEL_DIR,"random_forest.pkl")),
+    #"Random Forest": joblib.load(os.path.join(MODEL_DIR,"random_forest.pkl")),
     "XGBoost": joblib.load(os.path.join(MODEL_DIR,"xgboost.pkl")),
 }
 
