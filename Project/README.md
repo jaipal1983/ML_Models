@@ -93,9 +93,11 @@ Multiple machine learning models were implemented and evaluated:
 All models comparison table with the evaluation metrics calculated as below.
 
 | ML Model Name            | Class | Accuracy | AUC   | MCC   | Precision | Recall | F1    |
-| ------------------------ | ----- | -------- | ----- | ----- | --------- | ------ | ----- |
-| Logistic Regression      | 0     | 73.64    | 87.10 | 51.80 | 92.53     | 66.13  | 77.13 |
+| ------------------------:| ----- | -------- | ----- | ----- | --------- | ------ | ----- |
+|                          | 0     |          |       |       | 92.53     | 66.13  | 77.13 |
+| Logistic Regression      |       |   73.64  | 87.10 | 51.80 |-----------| ------ |------ |
 |                          | 1     |          |       |       | 56.16     | 89.04  | 68.88 |
+|--------------------------| ----- | -------- | ----- | ----- | --------- | ------ | ----- |
 | Decision Tree            | 0     | 86.20    | 92.40 | 68.30 | 88.67     | 91.12  | 89.88 |
 |                          | 1     |          |       |       | 80.67     | 76.11  | 78.33 |
 | kNN                      | 0     | 87.71    | 94.60 | 71.60 | 89.33     | 92.80  | 91.03 |
