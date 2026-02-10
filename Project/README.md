@@ -104,12 +104,12 @@ Multiple machine learning models were implemented and evaluated:
 ## Model Performance Evaluation Using Streamlit Application
 The trained machine learning models can be evaluated using the Streamlit web application. By accessing the link below, users can view and compare model performance metrics such as Accuracy, Precision, Recall, and F1-score.
 
-🔗 **Streamlit App:**  
+ **Streamlit App:**  
 https://mlmodels-prediction.streamlit.app/
 
 The complete source code, trained models, and documentation are available in the GitHub repository:
 
-🔗 **GitHub Repository:**  
+**GitHub Repository:**  
 https://github.com/jaipal1983/ML_Models/tree/master/Project
 
 ---
