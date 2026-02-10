@@ -92,22 +92,7 @@ Multiple machine learning models were implemented and evaluated:
 
 All models comparison table with the evaluation metrics calculated as below.
 
-| ML Model Name            | Class | Accuracy | AUC   | MCC   | Precision | Recall | F1    |
-| ------------------------ | ----- | -------- | ----- | ----- | --------- | ------ | ----- |
-|                          | 0     |          |       |       | 92.53     | 66.13  | 77.13 |
-| Logistic Regression      |       |   73.64  | 87.10 | 51.80 |           |        |       |
-|                          | 1     |          |       |       | 56.16     | 89.04  | 68.88 |
-|                          |       |          |       |       |           |        |       |
-| Decision Tree            | 0     | 86.20    | 92.40 | 68.30 | 88.67     | 91.12  | 89.88 |
-|                          | 1     |          |       |       | 80.67     | 76.11  | 78.33 |
-| kNN                      | 0     | 87.71    | 94.60 | 71.60 | 89.33     | 92.80  | 91.03 |
-|                          | 1     |          |       |       | 83.95     | 77.26  | 80.46 |
-| Naive Bayes              | 0     | 43.19    | 76.60 | 18.70 | 89.80     | 17.50  | 29.29 |
-|                          | 1     |          |       |       | 36.17     | 95.92  | 52.53 |
-| Random Forest (Ensemble) | 0     | 97.33    | 99.30 | 93.90 | 97.68     | 98.36  | 98.02 |
-|                          | 1     |          |       |       | 96.59     | 95.21  | 95.90 |
-| XGBoost (Ensemble)       | 0     | 89.34    | 95.80 | 75.40 | 90.23     | 94.35  | 92.25 |
-|                          | 1     |          |       |       | 87.22     | 79.04  | 82.93 |
+![preview](./images/model_metrics.png)
 
 ---
 
