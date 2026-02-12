@@ -40,7 +40,7 @@ The dataset contains historical hotel reservation records including customer det
 - avg_price_per_room  
 
 **Time-based Features**
-- Arrival month (one-hot encoded as arrival_month_1, arrival_month_2, …)
+- Arrival month (one-hot encoded as arrival_month_1, arrival_month_2, ..)
 
 ---
 
@@ -110,7 +110,14 @@ All models comparison table with the evaluation metrics calculated as below.
 ---
 
 ## Model Performance Evaluation Using Streamlit Application
-The trained machine learning models can be evaluated using the Streamlit web application. By accessing the link below, users can view and compare model performance metrics such as Accuracy, Precision, Recall, and F1-score.
+The trained machine learning models can be evaluated using the Streamlit web application. By accessing the provided Streamlit link, users can view model performance metrics such as Accuracy, Precision, Recall, and F1-score for different models
+
+**Steps:**
+1.	Open the provided steamlit link.
+2.	Select a model from the list.
+3.	Upload the csv file Hotel Reservations_data_features.csv.
+4.	View Model Metrics.
+
 
  **Streamlit App:**  
 https://mlmodels-prediction.streamlit.app/
