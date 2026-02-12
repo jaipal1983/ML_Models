@@ -25,7 +25,7 @@ st.set_page_config(
     layout="centered"
 )
 
-st.title("ML Model Evaluation – Streamlit App")
+st.title("ML Model Evaluation - Hotel Reservation")
 
 # ===============================
 # LOAD MODEL BUNDLES
@@ -125,7 +125,7 @@ if uploaded_file is not None:
         pd.DataFrame(
             cm,
             index=["Actual 0", "Actual 1"],
-            columns=["Predicted 0", "Predicted 1"]
+            columns=["Predicted 0 (Not Canceled)", "Predicted 1 (canceled)"]
         )
     )
 
